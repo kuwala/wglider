@@ -9,6 +9,8 @@ public class SettingsFPS : MonoBehaviour
     {
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 120;
+        //set resolution to 1080p
+        // QualitySettings.resolution = new Vector2(1920, 1080);
         
     }
 
